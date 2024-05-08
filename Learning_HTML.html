@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning HTML</title>
+    <h1>Uses of different types of tags in HTML:</h1>
+  </head>
+  <body>
+    <section>
+      <h1>Hello World</h1>
+      <h2>Hello World</h2>
+      <h3>Hello World</h3>
+      <h4>Hello World</h4>
+
+      <!-- link add -->
+      <a target="_blank" href="https://www.youtube.com/"> Youtube </a> <br />
+
+      <!-- previous html file -->
+      <a target="_blank" href="test.html"> Testing </a>
+
+      <!-- Button -->
+      <button>
+        <a target="_blank" href="https://www.youtube.com/"> Youtube </a>
+      </button>
+    </section>
+
+    <!-- Table Creation -->
+    <table border="1">
+      <h3>Creating Table</h3>
+      <tr align="center">
+        <th>Semester</th>
+        <th>Subject</th>
+        <th>Result</th>
+        <th>Avg CGPA</th>
+      </tr>
+      <tr align="center">
+        <td rowspan="2">1st Semester</td>
+        <td>CSE</td>
+        <td>4.00</td>
+        <td rowspan="2">4.00</td>
+      </tr>
+      <tr align="center">
+        <td>EEE</td>
+        <td>4.00</td>
+      </tr>
+    </table>
+
+    <!-- image -->
+    <h3>Adding image</h3>
+    <img src="images/soumik.jpg" alt="smk" width="300" height="350" />
+
+    <!-- List (Order(ol) & Unorder(ul)) -->
+    <h3>List[Order(ol) & Unorder(ul)]</h3>
+    <ul>
+      <li>DIU</li>
+      <ul>
+        <li>Department</li>
+        <ol>
+          <li>CSE</li>
+          <li>EEE</li>
+          <li>LLB</li>
+          <li>Civil</li>
+        </ol>
+      </ul>
+      <li>NSU</li>
+      <ul>
+        <li>Department</li>
+        <ol>
+          <li>CSE</li>
+          <li>EEE</li>
+          <li>LLB</li>
+          <li>Civil</li>
+        </ol>
+      </ul>
+      <li>EWU</li>
+      <li>UIU</li>
+    </ul>
+
+    <!-- Superscript & Subscript -->
+    <h2>Superscript & Subscript</h2>
+    <!-- superscript -->
+    x<sup>3</sup>+3x<sup>2</sup>+x=0 <br />
+    5x<sup>3</sup>y<sup>2</sup>z+3x<sup>2</sup>+x=0 <br />
+    <!-- subscript -->
+    H<sub>2</sub>O <br />
+    H<sub>2</sub>SO<sub>4</sub>
+
+    <!-- Form -->
+    <h3>Form</h3>
+    <section>
+      <form>
+        <input type="text" placeholder="Your Name" required /> <br />
+        <input type="email" placeholder="Enter email" required /><br />
+        <input type="password" placeholder="Enter password" required /><br />
+        <input type="date" required /><br />
+        <input type="url" placeholder="Enter url" required /><br />
+
+        <h5>Chose your favourite language:</h5>
+        <input type="radio" />
+        <label for="C/C++">C/C++</label><br />
+        <input type="radio" />
+        <label for="Python">Python</label><br />
+        <input type="radio" />
+        <label for="Java">Java</label><br />
+        <input type="radio" />
+        <label for="HTML">HTML</label><br />
+
+        <br />
+        <label for="name">Username:</label><br />
+        <input type="text" />
+        <br />
+        <label for="pass">Password:</label><br />
+        <input type="text" />
+        <br />
+        <input type="Submit" />
+        <input type="reset" />
+      </form>
+    </section>
+    <br />
+    <!-- Details -->
+    <abbr title="Learning HTML language">HTML</abbr>
+  </body>
+</html>
