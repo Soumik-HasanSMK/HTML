@@ -1,0 +1,133 @@
+/* for class style=> using (.) */
+
+.h1{
+    color: red;
+    font-style: italic;
+}
+.h2{
+    color: blue;
+    font-size: 30px;
+}
+
+/* id style=> using (#) */
+#h3{
+    color: brown;
+    font-size: 25px;
+}
+
+/* Box(padding,Border,margin) */
+.box{
+    /* width: 200px;
+    height: 200px; */
+
+    
+    /* padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px; 
+    padding-bottom: 50px;  */
+    
+    width: 200px;
+    padding: 20px; 
+    border: 2px solid;
+    text-align: center;
+    margin: 50px; /* (left,right,top,bottom) =>50px */
+}
+
+.Description{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.box1{
+    width: 200px;
+    height: 120px;
+    border: 1px solid green;
+    background-color: green;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px ;
+    border: 1px solid red;
+    background-color: red;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.box-all{
+    width: 200px;
+    height: 100px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+.box2{
+    /* width: 200px;
+    height: 100px; */
+    /* border: 2px solid black; */
+    
+}
+/* for using (position:relative), we can use (top,bottom,left,right) */
+.sub-box{
+    width: 50px;
+    height: 50px;
+    border: 2px solid blue;
+    position: relative;
+    top: 25px;
+    left: 75px;
+}
+.box3{
+    /* width: 200px;
+    height: 100px; */
+    /* border: 2px solid black; */
+}
+
+.line-container{
+    margin: 20px;
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    width: 100%;
+    height: 500px;
+    border: 1px solid goldenrod;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Line-1{
+    width: 280px;
+    height: 80px;
+    border: 2px solid red;
+}
+.Line-2{
+    width: 280px;
+    height: 80px;
+    border: 2px solid rgb(42, 4, 136);
+}
+.Line-3{
+    width: 280px;
+    height: 80px;
+    border: 2px solid rgb(247, 7, 187);
+}
+.Line-4{
+    width: 280px;
+    height: 80px;
+    border: 2px solid rgb(247, 187, 7);
+}
+
+.Banner{
+    /* width: 500px; */
+    height: 350px;
+    border: 2px solid black;
+    color: aliceblue;
+    margin: auto;
+    background-image: url('images/img1.avif'), linear-gradient(30deg, blue,brown,gray,rgb(7, 120, 148), rgb(7, 7, 7));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
